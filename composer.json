@@ -1,0 +1,20 @@
+{
+    "require": {
+        "php": ">7.9",
+        "ext-intl": "*",
+        "ext-mbstring": "*",
+        "ext-ctype": "*",
+        "symfony/flex": "^1.11",
+        "symfony/console": "^5.2"
+    },
+    "replace": {  
+        "symfony/polyfill-php80": "*",
+        "symfony/polyfill-php73": "*",
+        "symfony/polyfill-ctype": "*",  
+        "symfony/polyfill-mbstring": "*",  
+        "symfony/polyfill-intl": "*",
+        "symfony/polyfill-intl-icu": "*",
+        "symfony/polyfill-intl-normalizer": "*",
+        "symfony/polyfill-intl-grapheme": "*"
+    }
+}

@@ -20,10 +20,13 @@
 !var/log/.gitkeep
 
 # Parameters
+/composer.lock
+/symfony.lock
 /app/config/parameters.yml
 /app/config/parameters.ini
 
 # Managed by Composer
+/
 /app/bootstrap.php.cache
 /var/bootstrap.php.cache
 /bin/*
